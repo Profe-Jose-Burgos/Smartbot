@@ -2,6 +2,53 @@
 integrantes
 Isabella Sofía Rodriguez Casasbuenas
 José Manuel Pineda
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["Hola", "Buenos días", "Buenas tardes", "Hi", "¿Cómo estás?", "¿Hay alguien?", "Saludos", "Necesito ayuda"],
+         "responses": ["Hola, ¿en qué podemos ayudarle?", "Buenas, ¿en qué necesita ayuda?", "Saludos, ¿qué podemos ofrecerle?", "¿En qué podemos ayudarle el día de hoy?"],
+         "context_set": ""    
+        },
+        {"tag": "devoluciones",
+         "patterns": ["Necesito hacer una devolución","Quiero devolver un producto", "¿Cuáles son las políticas de devolución?"],
+         "responses": ["Aceptamos la devolución de productos en un plazo de 14 días naturales desde la entrega, excepto en los casos estipulados por ley y en los siguientes casos:el producto está dañado y resulta inservible tras abrirlo por responsabilidad del cliente, si los artículos que se puedan ver afectados por cuestiones de higiene personal (auriculares, auriculares con Bluetooth, auriculares con cables, etc.) han sido desprecintados, o si alguno de los accesorios del producto se ha perdido o faltan." ]
+        },
+        {"tag": "ofertas",
+         "patterns": ["¿Cuáles son sus ofertas?", "¿Tienen alguna oferta?", "¿Tienen descuentos?", "Descuentos"],
+         "responses": ["Sí, a nuestros nuevos clientes le ofrecemos 15% de descuento en su primera compra.", "Sí, actualmente contamos con un 15% de descuento para los nuevos clientes en su primera compra."]
+         },
+        {"tag": "horas",
+         "patterns": ["¿Cuál es su horario?", "¿Cuándo abren?", "¿Cuál es su horario de atención?", "horario"],
+         "responses": ["Estamos abiertos de Lunes a Sábado de 10 a.m. a 7 p.m.", "Nuestro horario de atención es de 10 a.m. a 7 p.m."]
+         },
+        {"tag": "Datos personales",
+         "patterns": ["Cómo puedo obtener más información?","Quiero hablar con alguien"],
+         "responses": ["Escriba aquí su número de teléfono y correo electrónico y alguno de nuestros asesores de venta se pondrá en contacto con usted"]
+        },
+        {"tag": "formas de pago",
+         "patterns": ["¿Cuáles son las formas de pago?", "¿Puedo pagar con tarjeta?", "¿Sólo aceptan efectivo?", "¿Cómo puedo pagar?"],
+         "responses": ["Aceptamos efectivo, transferencia, y tarjeta de crédito.", "Aceptamos todas las tarjetas de crédito, transferencias de banco y cheques"]
+        },
+        {"tag": "reparaciones",
+         "patterns": ["¿Ofrecen servicio de reparación?", "¿Podrían enviar a alguien para que arregle mi computadora?", "Mi computadora está dañada"],
+         "responses": ["Ofrecemos reparaciones con personal calificado, llame al 318-8404 para agendar una cita", "Claro, nuestro personal idóneo está aquí para apoyarlo, llame al 318-8404 para más información", "Con gusto nuestros técnicos pueden ayudarle, llame al 318-8404 para más información"]
+        },
+        {"tag": "sucursales",
+         "patterns": ["¿Dónde queda la tienda?", "¿Dónde puedo encontrar una sucursal?"],
+         "responses": ["Nuestras sucursales se encuentran en Albrook Mall, planta baja, y en Multiplaza primer piso entrada principal."]
+        },
+        {"tag": "productos",
+         "patterns": ["¿Qué ofrecen", "¿Qué productos venden?", "¿tienen computadoras?", "¿Venden celulares?"],
+         "responses": ["Ofrecemos la mejor tecnología, impresoras, computadoras, laptops, celulares, al mejor precio del país.", "Tenemos una variedad de productos tecnológicos para la satisfacción de nuestros clientes, como impresoras, computadoras, laptops, y celulares al mejor precio."]
+        },
+        {"tag": "gracias",
+         "patterns": ["muchas gracias", "gracias", "muchísimas gracias", "mil gracias"],
+         "responses": ["¡Estamos aquí para servirle!", "Estamos felices de ayudarle", "Estamos a su orden"]
+        }
+   ]
+}
+
+
+
 from nltk.stem.lancaster import LancasterStemmer as stemmer
 import pickle
 import nltk 
