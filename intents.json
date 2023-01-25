@@ -1,0 +1,49 @@
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["Hola", "Buenos dias", "Buenas tardes", "Hi", "¿Como estas?", "¿Hay alguien?", "Saludos", "Necesito ayuda"],
+         "responses": ["Hola, ¿en que podemos ayudarle?", "Buenas, ¿en que necesita ayuda?", "Saludos, ¿que podemos ofrecerle?", "¿En que podemos ayudarle el dia de hoy?"],
+         "context_set": ""    
+        },
+        {"tag": "devoluciones",
+         "patterns": ["Necesito hacer una devolucion","Quiero devolver un producto", "¿Cuales son las politicas de devolucion?"],
+         "responses": ["Aceptamos la devolucion de productos en un plazo de 14 dias naturales desde la entrega, excepto en los casos estipulados por ley y en los siguientes casos:el producto esta dañado y resulta inservible tras abrirlo por responsabilidad del cliente, si los articulos que se puedan ver afectados por cuestiones de higiene personal (auriculares, auriculares con Bluetooth, auriculares con cables, etc.) han sido desprecintados, o si alguno de los accesorios del producto se ha perdido o faltan." ]
+        },
+        {"tag": "ofertas",
+         "patterns": ["¿Cuales son sus ofertas?", "¿Tienen alguna oferta?", "¿Tienen descuentos?", "Descuentos"],
+         "responses": ["Si, a nuestros nuevos clientes le ofrecemos 15% de descuento en su primera compra.", "Si, actualmente contamos con un 15% de descuento para los nuevos clientes en su primera compra."]
+         },
+        {"tag": "horas",
+         "patterns": ["¿Cual es su horario?", "¿Cuando abren?", "¿Cual es su horario de atencion?", "horario"],
+         "responses": ["Estamos abiertos de Lunes a Sabado de 10 a.m. a 7 p.m.", "Nuestro horario de atencion es de 10 a.m. a 7 p.m."]
+         },
+        {"tag": "Datos personales",
+         "patterns": ["Como puedo obtener más informacion?","Quiero hablar con alguien"],
+         "responses": ["Escriba aqui su número de telefono y correo electronico y alguno de nuestros asesores de venta se pondra en contacto con usted"]
+        },
+        {"tag": "formas de pago",
+         "patterns": ["¿Cuales son las formas de pago?", "¿Puedo pagar con tarjeta?", "¿Solo aceptan efectivo?", "¿Cómo puedo pagar?"],
+         "responses": ["Aceptamos efectivo, transferencia, y tarjeta de credito.", "Aceptamos todas las tarjetas de crédito, transferencias de banco y cheques"]
+        },
+        {"tag": "despedida",
+         "patterns": ["Chao", "Adios", "Hasta luego"],
+         "responses": ["Muchas gracias, vuelva pronto.", "Fue un gusto atenderle, hasta luego."]
+        },
+         {"tag": "reparaciones",
+         "patterns": ["¿Ofrecen servicio de reparacion?", "¿Podrian enviar a alguien para que arregle mi computadora?", "Mi computadora esta dañada"],
+         "responses": ["Ofrecemos reparaciones con personal calificado, llame al 318-8404 para agendar una cita", "Claro, nuestro personal idoneo está aqui para apoyarlo, llame al 318-8404 para mas informacion", "Con gusto nuestros técnicos pueden ayudarle, llame al 318-8404 para mas informacion"]
+        },
+        {"tag": "sucursales",
+         "patterns": ["¿Donde queda la tienda?", "¿Donde puedo encontrar una sucursal?"],
+         "responses": ["Nuestras sucursales se encuentran en Albrook Mall, planta baja, y en Multiplaza primer piso entrada principal."]
+        },
+        {"tag": "productos",
+         "patterns": ["¿Que ofrecen", "¿Que productos venden?", "¿tienen computadoras?", "¿Venden celulares?"],
+         "responses": ["Ofrecemos la mejor tecnologia, impresoras, computadoras, laptops, celulares, al mejor precio del pais.", "Tenemos una variedad de productos tecnologicos para la satisfaccion de nuestros clientes, como impresoras, computadoras, laptops, y celulares al mejor precio."]
+        },
+        {"tag": "gracias",
+         "patterns": ["muchas gracias", "gracias", "muchisimas gracias", "mil gracias"],
+         "responses": ["!Estamos aqui para servirle!", "Estamos felices de ayudarle", "Estamos a su orden"]
+        }
+   ]
+}
+
